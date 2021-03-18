@@ -1,3 +1,11 @@
+21.03.18.
+
+메소드에 대한거라면 메소드 주석을 사용하는 게 어떻겠냐고 하신 리뷰를 봤다.   
+메소드 주석이라 치니까 딱 맞게 나오는 건 없었는데, 이거인 것 같아서 남겨본다.  
+
+https://stackoverflow.com/questions/29815636/and-in-java-comments   
+https://velog.io/@foeverna/Java33JavaDocs%EC%A3%BC%EC%84%9D
+
 ## javadoc 
 ```
 /**
