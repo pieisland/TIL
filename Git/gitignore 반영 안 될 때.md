@@ -1,5 +1,6 @@
 # 21.03.27.
 ## gitignore 반영 안 될 때
+https://medium.com/@kwoncharles/git-gitignore-%EB%B3%80%EA%B2%BD-%EB%B0%98%EC%98%81%ED%95%98%EA%B8%B0-3f0559947c2b
 ```
 git rm -r --cached .
 git add .
