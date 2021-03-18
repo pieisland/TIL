@@ -21,3 +21,8 @@ someone의 somehost에 대해서...
 하지만 슬픈 것은 내가 원하는 대로 되지 않았다는 점이다.    
 저번에 본 거는 grant all privileges on... 했었는데 privilege 안 붙여도 되는가봄..   
 ㅜㅜ
+
+## flush privileges란?
+flush privileges는 grant 테이블을 reload 하여 변경사항을 바로 적용해주는 명령어이다.   
+grant 명령어를 사용해 사용자를 추가하거나 권한 등을 변경했다면 굳이 실행할 필요가 없다고 한다.
+(insert, update와 같이 유저를 추가할 수도 있으니까.)
