@@ -17,3 +17,7 @@ ini가 어디 있나 해는데 exe 있는 위치에 있다.
 빨간 줄 떠서 뭐임? 했는데 저장하니까 자동 import 되면서 됐음...
 
 하지만 data를 쓰는 건 좋지 않다고 했기 때문에 결국 바꿔야 한다는 소리겠지. 
+
+
+사용법은 일단 링크로.. https://www.daleseo.com/lombok-popular-annotations/    
+Data는 안 쓰는 게 좋다고 한다.
