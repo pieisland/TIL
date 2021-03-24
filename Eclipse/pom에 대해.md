@@ -8,3 +8,5 @@
 스프링 jdbc 쓸 거라서 sping-jdbc, spring-tx도 해주고.
 
 mysql 쓸 거라서 mysql-connector-java도 추가해주고.
+
+datasource도 쓸 거라서 commons-dpcp2도 추가해주고.
