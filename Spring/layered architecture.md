@@ -22,3 +22,16 @@
 - `독립성`: 이상의 트랜잭션이 동시에 병행 실행되고 있을 경우에 어느 하나의 트랜잭션이라도 다른 트랜잭션의 연산을 끼어들 수 없다.
 -  지속성: 트랜잭션이 성공적으로 완료되었을 때 그 결과가 영구적으로 반영되어야 한다.
 
+### 레이어드 아키텍처
+- presentation layer
+- service layer
+- repository layer
+- 각각을 언제든지 따로 떼어 사용할 수 있도로 분리하는 게 중요.
+- 설정도 분리하는 것이 좋다.
+
+### 설정의 분리
+- spring 설정 파일을 프레젠테이션 레이어쪽과 나머지를 분리할 수 있다.
+- web.xml에서 프레젠테이션 레이어에 대한 스프링 설정은 `DispatcherServlet`이 읽도록 하고, 그 외의 설정은 `ContextLoaderListener`를 통해 읽도록 한다.
+- DispatcherServlet을 경우에 따라 두 개 이상 설정할 수 있는데(일반적인 경우는 아니다.) 이 경우 각각의 DispatcherServlet의 ApplicationContext가 각각 독립적이므로 각각의 설정 파일에서 생성한 Bean을 서로 사용할 수 없다. 
+- 위의 경우와 같이 동시에 필요한 Bean은 ContextLoaderListener를 사용해 공통으로 사용하게 할 수 있다.
+- 
