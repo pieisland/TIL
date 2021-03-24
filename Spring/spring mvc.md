@@ -38,3 +38,8 @@ public class PlusController {
 ```
 
 해보면 알겠지.
+
+- @ModelAttribute User user 이런식으로 사용하면 dto마냥 한꺼번에 값을 받아올 수 있다. 하나하나씩 requestparam으로 하는 대신에.
+
+
+이제보니까 return을 jsp 이름으로 하는거임?
